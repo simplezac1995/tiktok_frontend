@@ -1,0 +1,57 @@
+.head-bar{
+	background-color:var(--ghostWhite);
+}
+.record-wrap {
+	padding: 20upx 20upx 0;
+
+	.cu-list.menu {
+		padding: 30upx;
+		margin-bottom: 20upx;
+		border-radius: 20upx;
+		background-color: var(--blue);
+
+		.flex.bg-white {
+			padding: 20upx;
+			margin-bottom: 20upx;
+			border-radius: 20upx;
+		}
+
+		.cu-item {
+			padding: 20upx;
+			margin-bottom: 20upx;
+			border-radius: 20upx;
+
+			.state {
+				width: 120upx;
+				height: 120upx;
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+
+			> .content {
+				padding-left: 20upx;
+				margin-left: 20upx;
+				border-left: 1px dashed var(--ghostWhite);
+			}
+		}
+
+		.cu-item:last-child {
+			margin: 0 !important;
+		}
+
+		.cu-btn {
+			flex: 1;
+			padding: 0;
+			margin-right: 20upx;
+		}
+
+		.cu-btn:last-child {
+			margin: 0 !important;
+		}
+	}
+
+	.cu-list.menu:last-child {
+		margin: 0 !important;
+	}
+}

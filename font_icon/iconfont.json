@@ -1,0 +1,23 @@
+{
+  "id": "2245455",
+  "name": "抖音点赞（英文）",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "606323",
+      "name": "美元",
+      "font_class": "meiyuandollar153",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15816264",
+      "name": "035美金",
+      "font_class": "035meijin",
+      "unicode": "e7c5",
+      "unicode_decimal": 59333
+    }
+  ]
+}

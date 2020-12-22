@@ -1,0 +1,146 @@
+.head-bar{
+	background-color:var(--ghostWhite);
+}
+.logobox {
+	height: 44px;
+	text-align: center;
+	padding: 10upx 0;
+	image{
+		display: inline-block;
+		height: 100%;
+	}
+}
+.banner-slider {
+	width: 100%;
+	padding-bottom: 40%;
+	border-radius: 20upx;
+	position: relative;
+	background-color: var(--white);
+	.screen-swiper {
+		width: 100%;
+		height: 100%;
+		min-height: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+.cu-list.grid {
+	background-color: transparent;
+	image{
+		width: 50%;
+	}
+}
+.horse-race-lamp {
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 20upx 20upx 0;
+	position: relative;
+	view {
+		color: var(--blue);
+	}
+	.content {
+		display: inline-block;
+	}
+	._notice {
+		background-color: transparent;
+		position: absolute;
+		top: 0;
+		._swiper {
+			height: auto;
+		}
+	}
+}
+.listbox {
+	.cu-bar {
+		min-height: auto;
+		margin: 20upx 0;
+		view {
+			font-weight: bold;
+		}
+	}
+	.cu-list.menu,
+	.cu-list.menu-avatar {
+		padding: 0 20upx;
+		.cu-item {
+			margin-bottom: 20upx;
+			border-radius: 20upx;
+		}
+	}
+	.cu-list.menu-avatar {
+		overflow: visible;
+		.cu-item {
+			.cu-tag {
+				position: absolute;
+				top: -10upx;
+			}
+			.cu-avatar.lg{
+				width: 120upx;
+				height: 120upx;
+			}
+			.content.text-white{
+				letter-spacing: 2rpx;
+			}
+		}
+		.facebook{
+			background-color: #3d589d;
+		}
+		.douyin{
+			background-color: #221816;
+		}
+	}
+	.cu-list.grid {
+		padding: 0 20upx;
+		.cu-item {
+			width: calc((100% - 20upx) / 2);
+			padding: 30upx;
+			margin: 20upx 20upx 0 0;
+			border-radius: 20upx;
+			background-color: var(--white);
+			box-shadow: 0 1upx 6upx rgba(0, 0, 0, 0.1);
+		}
+		.cu-item:nth-child(1),
+		.cu-item:nth-child(2) {
+			margin-top: 0 !important;
+		}
+		.cu-item:nth-child(2n) {
+			margin-right: 0 !important;
+		}
+	}
+}
+.ad {
+	padding: 20upx;
+	.imgbox {
+		padding-bottom: 38%;
+	}
+}
+.cu-modal {
+	.cu-dialog {
+		overflow: initial;
+		border-radius: 20upx;
+		background-color: var(--white);
+		.cu-bar {
+			padding: 20upx;
+			border-radius: 20upx 20upx 0 0;
+			image {
+				width: 120upx;
+				height: 120upx;
+				border-radius: 10upx;
+			}
+		}
+		.text-content {
+			padding: 30upx 20upx;
+			max-height: 54vh;
+			overflow: auto;
+		}
+		.cuIcon-roundclose {
+			display: block;
+			font-size: 60upx;
+			color: #fff;
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			transform: translate3d(-50%, 120%, 0);
+		}
+	}
+}

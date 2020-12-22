@@ -1,0 +1,22 @@
+.vip-wrap {
+	padding: 20upx 20upx 0;
+
+	.cu-list.menu {
+		padding: 30upx;
+		margin-bottom: 20upx;
+		border-radius: 20upx;
+		background-color: #fff;
+
+		.cu-item {
+			padding: 0;
+
+			.cu-avatar::before {
+				display: none;
+			}
+		}
+
+		:after {
+			display: none;
+		}
+	}
+}

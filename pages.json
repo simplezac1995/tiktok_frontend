@@ -1,0 +1,375 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle":"custom"
+		    }
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {"navigationBarTitleText": "Forget Password"}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "Registration"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/home/help/list",
+			"style": {
+				"navigationBarTitleText": "Help Center",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/home/help/info",
+			"style": {}
+		},
+		{
+			"path": "pages/home/video/list",
+			"style": {
+				"navigationBarTitleText": "Video Tutorial",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/home/guide/list",
+			"style": {
+				"navigationBarTitleText": "Money Guide"
+			}
+		},
+		{
+			"path": "pages/home/notice/list",
+			"style": {
+				"navigationBarTitleText": "News",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/home/notice/info",
+			"style": {
+				"navigationBarTitleText": "News"
+			}
+		},
+		{
+			"path": "pages/vip/home",
+			"style": {
+				"navigationBarTitleText": "Member",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/task/home",
+			"style": {
+				"navigationBarTitleText": "Task",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"custom",
+				"bounce":"none"
+			}
+		},
+		{
+			"path": "pages/record/home",
+			"style": {
+				"navigationBarTitleText": "Task Record",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/my/home",
+			"style": {
+				"navigationBarTitleText": "My Center",
+				"enablePullDownRefresh":true,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/my/task/info",
+			"style": {
+				"navigationBarTitleText": "Task Assistant",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/my/task/list",
+			"style": {
+				"navigationBarTitleText": "Task Record"
+			}
+		},
+		{
+			"path": "pages/my/info/list",
+			"style": {
+				"navigationBarTitleText": "Personal information"
+			}
+		},
+		{
+			"path": "pages/my/info/user",
+			"style": {
+				"navigationBarTitleText": "Edit Your Profile"
+			}
+		},
+		{
+			"path": "pages/my/info/ustd",
+			"style": {
+				"navigationBarTitleText": "Edit USTD Profile"
+			}
+		},
+		{
+			"path": "pages/my/info/head-portrait",
+			"style": {
+				"navigationBarTitleText": "Modify head portrait"
+			}
+		},
+		{
+			"path": "pages/my/cash/cash",
+			"style": {
+				"navigationBarTitleText": "Application for withdrawal"
+			}
+		},
+		{
+			"path": "pages/my/cash/channel",
+			"style": {
+				"navigationBarTitleText": "Withdrawal channel"
+			}
+		},
+		{
+			"path": "pages/my/info/bank",
+			"style": {
+				"navigationBarTitleText": "Binding bank card"
+			}
+		},
+		{
+			"path": "pages/my/info/login-password",
+			"style": {
+				"navigationBarTitleText": "Change login password"
+			}
+		},
+		{
+			"path": "pages/my/info/cash-password",
+			"style": {
+				"navigationBarTitleText": "Change withdrawal password"
+			}
+		},
+		{
+			"path": "pages/vip/recharge",
+			"style": {
+				"navigationBarTitleText": "Upgrade VIP"
+			}
+		},
+		{
+			"path": "pages/my/info/business",
+			"style": {
+				"navigationBarTitleText": "Business center"
+			}
+		},
+		{
+			"path": "pages/my/report/team",
+			"style": {
+				"navigationBarTitleText": "Team reports",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/report/week",
+			"style": {
+				"navigationBarTitleText": "Weekly report",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/report/day",
+			"style": {
+				"navigationBarTitleText": "Daily report",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/buy-record",
+			"style": {
+				"navigationBarTitleText": "Purchase report",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/cash-record",
+			"style": {
+				"navigationBarTitleText": "Withdrawal record",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/account-log",
+			"style": {
+				"navigationBarTitleText": "Balance record",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/invite/list",
+			"style": {
+				"navigationBarTitleText": "Share the money"
+			}
+		},
+		{
+			"path": "pages/my/download",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "Download the APP"
+			}
+		},
+		{
+			"path": "pages/vip/channel",
+			"style": {
+				"navigationBarTitleText": "Recharge"
+			}
+		}
+        ,{
+            "path" : "pages/online/online",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Online Service",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/cash/cash",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/Community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Community",
+                "enablePullDownRefresh": false
+            }
+        }
+		,{
+		    "path" : "pages/my/Community-fire",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "USDT exchange APP",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/home/video/video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Video",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/daily-task/daily-task",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Daily Task",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/404",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "404",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/luck_draw/luck_draw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/vouchers/vouchers",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Vouchers",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"color": "#aaaaaa",
+		"selectedColor": "#1e9fff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_cur.png",
+				"text": "Home"
+			},{
+				"pagePath": "pages/vip/home",
+				"iconPath": "static/tabbar/vip.png",
+				"selectedIconPath": "static/tabbar/vip_cur.png",
+				"text": "Member"
+			},{
+				"pagePath": "pages/task/home",
+				"iconPath": "static/tabbar/task.png",
+				"selectedIconPath": "static/tabbar/task_cur.png",
+				"text": "Task"
+			},{
+				"pagePath": "pages/record/home",
+				"iconPath": "static/tabbar/record.png",
+				"selectedIconPath": "static/tabbar/record_cur.png",
+				"text": "Record"
+			},{
+				"pagePath": "pages/my/home",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_cur.png",
+				"text": "My"
+			}
+		]
+	}
+
+}
